@@ -6,9 +6,9 @@ export const navlist: NavlistType[] = [
     name: "Service",
     path: "/service",
     children: [
-      { name: "Hotel", path: "/web-development" },
+      { name: "Hotel", path: "/hotel" },
       { name: "Construction", path: "/app-development" },
-      { name: "Travels", path: "/graphic-design" },
+      { name: "Travels", path: "/travels" },
       { name: "Saloon", path: "/saloon" },
     ],
   },
