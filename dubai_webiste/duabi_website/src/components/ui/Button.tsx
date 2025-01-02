@@ -13,7 +13,9 @@ export default function Button({ children, className }: Props) {
 
   return (
     <div>
-      <button id="button">{children}</button>
+      <button id="button" className={mergedClass}>
+        {children}
+      </button>
     </div>
   );
 }
