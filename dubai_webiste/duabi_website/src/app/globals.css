@@ -2,8 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+input,
+textarea {
+  outline-color: transparent;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+  min-height: 80vh;
+  background-color: #878dff;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20vw), 0 100%);
+}
+
+.blob-shape {
+  border-radius: 30% 70% 70% 30% / 31% 42% 58% 69%;
+  background: url("../assets/image/blob-image.jpg");
+  border: 3px solid rgb(97, 88, 88);
+  width: 500px;
+  height: 500px;
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {
   type: string;
-  placeholder: string;
+  placeholder?: string;
   name: string;
   required?: boolean;
   label: string;
@@ -10,13 +10,13 @@ type Props = {
 
 export default function Input({ label, ...props }: Props) {
   return (
-    <div className="flex flex-col gap-2">
-      <label htmlFor={props.name} className="text-sm">
+    <div className="flex flex-col gap-1">
+      <label htmlFor={props.name} className="text-base">
         {label}
       </label>
       <input
         {...props}
-        className="border-b-2 border-gray-400 w-[min(250px,90vw)]"
+        className=" text-sm border-b border-gray-400 w-[min(280px,90vw)]"
       />
     </div>
   );

@@ -12,7 +12,9 @@ export default function Dropdown({
   return (
     <div
       className={`absolute border-t-2 border-t-violet-600 z-[10] top-6 left-[-15] w-fit border rounded-lg text-nowrap p-4 shadow-md bg-white transition-all duration-300 ${
-        isDropped ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-1"
+        isDropped
+          ? "opacity-100 translate-y-0"
+          : " hidden opacity-0 -translate-y-1"
       }`}
     >
       <ul className="grid gap-4">
