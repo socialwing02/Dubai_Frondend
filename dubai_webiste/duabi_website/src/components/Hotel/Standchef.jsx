@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Standche from "../../assets/image/stantchef.png";
+import Standche from "../../assets/image/hotel/stantchef.png";
 
 function Standchef() {
   return (
@@ -12,7 +12,7 @@ function Standchef() {
           className="h-[300px] w-[900px] sm:h-[] md:h-[600px] md:w-[1000px]"
         />
       </div>
-      
+
       {/* Text Section */}
       <div className=" md:w-auto text-center md:text-left">
         <h1 className="text-4xl md:text-6xl font-bold">Stand Chef</h1>
