@@ -12,7 +12,9 @@ const Hotel = () => {
       {/* Main Section */}
       <div className="hotel__container h-[800px]   bg-orange-700  mt-[100px] flex flex-col lg:flex-row justify-center items-center lg:items-start px-4 lg:px-0">
         <div className="hotel__info mt-[100] lg:mt-21 rounded-lg shadow-md p-6 lg:p-8 bg-blue-950 text-white h-auto lg:h-[450px] z-10 w-full lg:w-[500px] mb-8 lg:mb-0 lg:mr-[-100px]">
-          <h2 className="hotel__name text-xl lg:text-2xl mb-4">HEALTHY EATING</h2>
+          <h2 className="hotel__name text-xl lg:text-2xl mb-4">
+            HEALTHY EATING
+          </h2>
           <h1 className="hotel_name text-3xl lg:text-5xl w-full lg:w-[20ch]">
             Delicious Dinners in Under 30 Minutes ...
           </h1>
@@ -21,7 +23,7 @@ const Hotel = () => {
           <Image
             src={girl}
             alt="Hotel 1"
-            className="h-[400px] w-[800px] rounded-lg   md:w-[800px] md:h-[600px] lg:w-[800px]"
+            className="h-[400px] w-[800px] rounded-lg   md:w-[800px] md:h-[600px] lg:w-[800px] object-cover"
           />
         </div>
       </div>
