@@ -1,10 +1,10 @@
 import React from "react";
-import girl from "../../assets/image/girl.png";
+import girl from "../../assets/image/hotel/girl.png";
 import Image from "next/image";
-import CHB from "../../assets/image/CH-B.png";
-import CHB1 from "../../assets/image/CH-MASALA.png";
-import CHB2 from "../../assets/image/H-B.png";
-import CHB3 from "../../assets/image/burg.png";
+import CHB from "../../assets/image/food-image/CH-B.png";
+import CHB1 from "../../assets/image/food-image/CH-MASALA.png";
+import CHB2 from "../../assets/image/food-image/H-B.png";
+import CHB3 from "../../assets/image/food-image/burg.png";
 
 const Hotel = () => {
   return (

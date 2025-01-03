@@ -1,5 +1,5 @@
 import React from "react";
-import images from "../../assets/image/burg.png";
+import images from "../../assets/image/food-image/burg.png";
 import Image from "next/image";
 
 function hotel1stcard() {
