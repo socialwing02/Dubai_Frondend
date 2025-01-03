@@ -1,12 +1,21 @@
+"use client";
+
 import React from "react";
 import haircut from "@/assets/image/saloon-hero.webp";
 import Image from "next/image";
 import Button from "../ui/Button";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/lib/variants";
 
 export default function SaloonHero() {
   return (
-    <div className="flex justify-center  gap-16 py-[3rem] text-center">
-      <div className="w-[min(500px,90vw)] py-[5rem] flex flex-col items-center gap-6">
+    <div className="flex justify-center flex-col-reverse items-center  gap-6 md:flex-row  md:gap-16 py-[3rem] text-center">
+      <motion.div
+        variants={fadeIn("left", 0.2)}
+        initial="hidden"
+        whileInView="show"
+        className="w-[min(500px,90vw)] md:py-[5rem] flex flex-col items-center gap-6"
+      >
         <h1 className="text-[clamp(3rem,4vw,5rem)]  font-bold">
           Luxury ​Curly Hair Salon
         </h1>
@@ -19,13 +28,19 @@ export default function SaloonHero() {
         <div className="justify-self-end pr-8">
           <Button>Get Started</Button>
         </div>
-      </div>
+      </motion.div>
 
-      <Image
-        src={haircut}
-        alt="saloon"
-        className=" w-[500px] h-[500px] object-cover rounded-xl"
-      />
+      <motion.div
+        variants={fadeIn("right", 0.2)}
+        initial="hidden"
+        whileInView="show"
+      >
+        <Image
+          src={haircut}
+          alt="saloon"
+          className=" w-[500px] aspect-[1] object-cover rounded-xl"
+        />
+      </motion.div>
     </div>
   );
 }

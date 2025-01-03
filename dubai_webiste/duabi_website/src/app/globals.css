@@ -35,12 +35,13 @@ body {
   width: min(90%, 90vw);
   margin-inline: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust column width as needed */
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   gap: 1.5rem;
   padding: 2rem;
   height: 800px;
 }
+
 .grid-columns > div:nth-child(1) {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
@@ -55,7 +56,7 @@ body {
 }
 
 .grid-columns > * {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 12px;
 }
 
