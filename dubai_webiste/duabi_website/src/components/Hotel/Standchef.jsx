@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Standche from "../../assets/image/stantchef.png";
+import Standche from "../../assets/image/hotel/stantchef.png";
 
 function Standchef() {
   return (
