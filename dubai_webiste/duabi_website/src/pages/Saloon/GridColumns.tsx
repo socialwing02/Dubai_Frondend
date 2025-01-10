@@ -6,7 +6,7 @@ import grid1 from "@/assets/image/grid-1.jpg";
 import grid2 from "@/assets/image/grid-2.jpg";
 import grid3 from "@/assets/image/grid-3.webp";
 import grid4 from "@/assets/image/grid-4.jpg";
-import Button from "../ui/Button";
+import Button from "../../components/ui/Button";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
 

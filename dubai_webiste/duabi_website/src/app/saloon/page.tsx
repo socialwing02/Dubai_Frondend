@@ -1,7 +1,7 @@
-import GridColumns from "@/components/Saloon/GridColumns";
-import SaloonEvalute from "@/components/Saloon/SaloonEvalute";
-import SaloonHero from "@/components/Saloon/SaloonHero";
-import SaloonShowcase from "@/components/Saloon/SaloonShowcase";
+import GridColumns from "@/pages/Saloon/GridColumns";
+import SaloonEvalute from "@/pages/Saloon/SaloonEvalute";
+import SaloonHero from "@/pages/Saloon/SaloonHero";
+import SaloonShowcase from "@/pages/Saloon/SaloonShowcase";
 
 export default function Saloon() {
   return (

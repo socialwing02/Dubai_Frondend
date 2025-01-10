@@ -7,10 +7,7 @@ function Standchef() {
     <div className="flex flex-col md:flex-row items-center justify-center p-6 md:p-12">
       {/* Image Section */}
       <div className="w-[500px] md:w-auto flex justify-center mb-6 md:mb-0">
-        <Image
-          src={Standche}
-          className="h-[300px] w-[900px] sm:h-[] md:h-[600px] md:w-[1000px]"
-        />
+        <Image src={Standche} alt="" className="w-[min(400px,90vw)]" />
       </div>
 
       {/* Text Section */}

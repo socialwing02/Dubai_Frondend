@@ -3,13 +3,13 @@
 import React from "react";
 import haircut from "@/assets/image/saloon-hero.webp";
 import Image from "next/image";
-import Button from "../ui/Button";
+import Button from "../../components/ui/Button";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
 
 export default function SaloonHero() {
   return (
-    <div className="flex justify-center flex-col-reverse items-center  gap-6 md:flex-row  md:gap-16 py-[3rem] text-center">
+    <div className="flex justify-center flex-col-reverse items-center px-10  gap-6 md:flex-row  md:gap-16 py-[3rem] text-center">
       <motion.div
         variants={fadeIn("left", 0.2)}
         initial="hidden"
